@@ -1,4 +1,4 @@
-# rowattest-com
+# RowAttest
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,131 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-rowattest-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://rowattest.com/
+RowAttest provides automated testing of Supabase Row-Level Security (RLS) policies. It runs simulated attacks against Supabase projects to detect data exposure risks, generates signed attestation reports, and offers a free tier for limited scans. The service helps developers ensure their Supabase applications enforce proper access controls and protect tenant data.
+
+**Areas:** Security · Supabase · RLS · DataProtection · SaaS
+
+## RowAttest on APIs.io
+
+Everything profiled for RowAttest is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/rowattest-com/](https://apis.io/providers/rowattest-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [RowAttest Attestations API](https://apis.io/apis/rowattest-com/rowattest-com-attestations-api/) — The Attestations API from RowAttest — 1 operation(s) for attestations.
+- [RowAttest Projects API](https://apis.io/apis/rowattest-com/rowattest-com-projects-api/) — The Projects API from RowAttest — 2 operation(s) for projects.
+- [RowAttest Runs API](https://apis.io/apis/rowattest-com/rowattest-com-runs-api/) — The Runs API from RowAttest — 4 operation(s) for runs.
+- [RowAttest Verify API](https://apis.io/apis/rowattest-com/rowattest-com-verify-api/) — The Verify API from RowAttest — 1 operation(s) for verify.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [RowAttest Agentic Access](https://apis.io/agentic-access/rowattest-com/rowattest-com-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Attestation](https://apis.io/schemas/rowattest-com/rowattest-com-attestation/)
+- [Findings](https://apis.io/schemas/rowattest-com/rowattest-com-findings/)
+- [Fingerprint](https://apis.io/schemas/rowattest-com/rowattest-com-fingerprint/)
+- [Project](https://apis.io/schemas/rowattest-com/rowattest-com-project/)
+- [Run](https://apis.io/schemas/rowattest-com/rowattest-com-run/)
+- [Verification](https://apis.io/schemas/rowattest-com/rowattest-com-verification/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Rowattest Com Context](https://apis.io/jsonld/rowattest-com/rowattest-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [RowAttest API Rules](https://apis.io/rules/rowattest-com/rowattest-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [RowAttest Authentication](https://apis.io/security/rowattest-com/rowattest-com-authentication/)
+- [RowAttest Domain Security](https://apis.io/security/rowattest-com/rowattest-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [RowAttest Plans Pricing](https://apis.io/plans/rowattest-com/rowattest-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://rowattest.com/)
+- [Documentation](https://rowattest.com/mcp)
+- [API reference](https://app.rowattest.com/api/v1/openapi.json)
+- [Pricing](https://rowattest.com/pricing)
+- [Terms of service](https://rowattest.com/terms.html)
+- [Privacy policy](https://rowattest.com/privacy)
+- [GitHub](https://github.com/rowattest)
+
+## API Evangelist rating
+
+**Kin Score 47.8** — developing · rubric 0.28.0 · scored 2026-11-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.3 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 51.5 |
+
+**Agent readiness 46.8** — agent-native
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | verified |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 18.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/rowattest-com/](https://apis.io/providers/rowattest-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for RowAttest: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/rowattest-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
